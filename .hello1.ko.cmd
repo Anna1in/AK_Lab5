@@ -1,0 +1,1 @@
+cmd_/home/anna/Lab5/hello1.ko := arm-linux-gnueabihf-ld -r  -EL -z noexecstack  -T ./scripts/module-common.lds -T ./arch/arm/kernel/module.lds  --build-id  -o /home/anna/Lab5/hello1.ko /home/anna/Lab5/hello1.o /home/anna/Lab5/hello1.mod.o ;  true
